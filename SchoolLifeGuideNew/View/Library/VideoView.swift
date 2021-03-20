@@ -27,6 +27,6 @@ struct VideoView: View {
 
 struct VideoView_Previews: PreviewProvider {
     static var previews: some View {
-        VideoView(video: Video(name: "mod_05_aie_demand-video", extensions: ".mp4"))
+        VideoView(video: Video(name: "APCreateTaskVideo", extensions: ".mov"))
     }
 }
