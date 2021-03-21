@@ -23,7 +23,6 @@
 		9C39ED2E25A8EA0700DB7C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */; };
 		9C39ED3125A8EA0700DB7C73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED3025A8EA0700DB7C73 /* Preview Assets.xcassets */; };
 		9C3C0A0925F2BB0200ED8A6F /* AssessmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A0825F2BB0200ED8A6F /* AssessmentView.swift */; };
-		9C3C0A0C25F2BD5500ED8A6F /* Severity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A0B25F2BD5500ED8A6F /* Severity.swift */; };
 		9C3C0A1325F2BFC400ED8A6F /* timesOfViolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A1225F2BFC400ED8A6F /* timesOfViolation.swift */; };
 		9C3C0A1825F313DB00ED8A6F /* Offence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A1725F313DB00ED8A6F /* Offence.swift */; };
 		9C3C0A1B25F328D900ED8A6F /* Offences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A1A25F328D900ED8A6F /* Offences.swift */; };
@@ -64,7 +63,6 @@
 		9C39ED3025A8EA0700DB7C73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C39ED3225A8EA0700DB7C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C3C0A0825F2BB0200ED8A6F /* AssessmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentView.swift; sourceTree = "<group>"; };
-		9C3C0A0B25F2BD5500ED8A6F /* Severity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Severity.swift; sourceTree = "<group>"; };
 		9C3C0A1225F2BFC400ED8A6F /* timesOfViolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timesOfViolation.swift; sourceTree = "<group>"; };
 		9C3C0A1725F313DB00ED8A6F /* Offence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offence.swift; sourceTree = "<group>"; };
 		9C3C0A1A25F328D900ED8A6F /* Offences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offences.swift; sourceTree = "<group>"; };
@@ -173,7 +171,6 @@
 				9CA7117525C7BA750041436C /* Issues.swift */,
 				9C346AA325CA68C900F42AEE /* BadgeBackground.swift */,
 				9C5DCCB525CDF7BF00593E05 /* NavigationBarColorChange.swift */,
-				9C3C0A0B25F2BD5500ED8A6F /* Severity.swift */,
 				9C01CCD925F9D36600E1FE7F /* OffenceType.swift */,
 				9C3C0A1225F2BFC400ED8A6F /* timesOfViolation.swift */,
 				9C1DC75F25ACE068007D359A /* LifeGuides.swift */,
@@ -311,7 +308,6 @@
 				9CA7116F25C7B1680041436C /* FAQsView.swift in Sources */,
 				9C3C0A1325F2BFC400ED8A6F /* timesOfViolation.swift in Sources */,
 				9CA7117325C7B9B50041436C /* Issue.swift in Sources */,
-				9C3C0A0C25F2BD5500ED8A6F /* Severity.swift in Sources */,
 				9C044B3D25D5E783000793EC /* VideoView.swift in Sources */,
 				9CBB67F625DF690F007F4504 /* Videos.swift in Sources */,
 				9C5DCCB625CDF7BF00593E05 /* NavigationBarColorChange.swift in Sources */,

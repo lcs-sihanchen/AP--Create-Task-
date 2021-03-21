@@ -13,7 +13,6 @@ struct AssessmentView: View {
     
     
     @ObservedObject var viewModel = AssessmentViewModel()
-    @State private var showingHistoryView: Bool = false
     
     
     
@@ -31,7 +30,7 @@ struct AssessmentView: View {
     
     
     @Binding var showing: Bool
-    @State var showReference: Bool = false
+   
     @State private var showAlert = false
     @ObservedObject var store: Offences
     
@@ -53,20 +52,6 @@ struct AssessmentView: View {
                             }.pickerStyle(SegmentedPickerStyle())
                         }
                         
-                        Section {
-                            Label("Severity", systemImage: "circle.fill").foregroundColor(viewModel.getIconColor())
-                            
-                            Picker("Severity", selection:$viewModel.severity) {
-                                Text(Severity.Low.rawValue)
-                                    .tag(Severity.Low)
-                                Text(Severity.Medium.rawValue)
-                                    .tag(Severity.Medium)
-                                Text(Severity.High.rawValue)
-                                    .tag(Severity.High)
-                                Text(Severity.veryHigh.rawValue)
-                                    .tag(Severity.veryHigh)
-                            }.pickerStyle(SegmentedPickerStyle())
-                        }
                         
                         Section {
                             
@@ -89,7 +74,7 @@ struct AssessmentView: View {
                     Button("Get Result") {
                         accountabilityText = viewModel.getAlertMessage()
                         showAlert = true
-                        store.offences.append(Offence(areaOfViolation: viewModel.description, timesOfViolation: viewModel.violationTimes, severity: viewModel.severity, levelOfCompliance: viewModel.complianceLevel))
+                        store.offences.append(Offence(areaOfViolation: viewModel.description, timesOfViolation: viewModel.violationTimes, levelOfCompliance: viewModel.complianceLevel))
                         
                     }.alert(isPresented: $showAlert) {
                         Alert(title: Text("Accountability"), message:   Text(accountabilityText), dismissButton: .default(Text("cancel")))
@@ -128,7 +113,7 @@ struct AssessmentView: View {
         func saveTask() {
             
             // Add the task to the list of tasks
-            store.offences.append(Offence(areaOfViolation: viewModel.description, timesOfViolation: viewModel.violationTimes, severity: viewModel.severity, levelOfCompliance: viewModel.complianceLevel))
+            store.offences.append(Offence(areaOfViolation: viewModel.description, timesOfViolation: viewModel.violationTimes, levelOfCompliance: viewModel.complianceLevel))
             
             // Dismiss this view
             showing = false
