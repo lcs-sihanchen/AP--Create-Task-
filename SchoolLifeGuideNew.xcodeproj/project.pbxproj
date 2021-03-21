@@ -11,6 +11,7 @@
 		9C01CCDE25FA86A700E1FE7F /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C01CCDD25FA86A700E1FE7F /* PickerView.swift */; };
 		9C044B3D25D5E783000793EC /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C044B3C25D5E783000793EC /* VideoView.swift */; };
 		9C14FFDB26052CEE007004FD /* APCreateTaskVideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 9C14FFDA26052CEE007004FD /* APCreateTaskVideo.mov */; };
+		9C14FFE026069611007004FD /* Comic Sans MS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C14FFDF26069611007004FD /* Comic Sans MS.ttf */; };
 		9C1DC75225ACD14C007D359A /* LifeGuideDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */; };
 		9C1DC75C25ACDF94007D359A /* LifeGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75B25ACDF94007D359A /* LifeGuide.swift */; };
 		9C1DC76025ACE068007D359A /* LifeGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75F25ACE068007D359A /* LifeGuides.swift */; };
@@ -27,15 +28,11 @@
 		9C3C0A1825F313DB00ED8A6F /* Offence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A1725F313DB00ED8A6F /* Offence.swift */; };
 		9C3C0A1B25F328D900ED8A6F /* Offences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A1A25F328D900ED8A6F /* Offences.swift */; };
 		9C3C0A1E25F4650300ED8A6F /* AssessmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A1D25F4650300ED8A6F /* AssessmentViewModel.swift */; };
-		9C3C0A2325F4938200ED8A6F /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A2225F4938200ED8A6F /* CreditView.swift */; };
-		9C3C0A2625F4B9B200ED8A6F /* ReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A2525F4B9B200ED8A6F /* ReferenceView.swift */; };
-		9C3C0A2A25F5879300ED8A6F /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A2925F5879300ED8A6F /* HistoryView.swift */; };
 		9C4D7D5125DCAB28001A2E83 /* VideoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4D7D5025DCAB28001A2E83 /* VideoList.swift */; };
 		9C526E6025C7BDDA006CB517 /* FAQsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C526E5F25C7BDDA006CB517 /* FAQsDetailView.swift */; };
 		9C5DCCB625CDF7BF00593E05 /* NavigationBarColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DCCB525CDF7BF00593E05 /* NavigationBarColorChange.swift */; };
 		9C70C98A25C8A5B100345ECD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70C98925C8A5B100345ECD /* HomeView.swift */; };
 		9C70C98F25C8E66300345ECD /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70C98E25C8E66300345ECD /* LibraryView.swift */; };
-		9C8BE7B925E19D3100ADD980 /* CancelHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BE7B825E19D3100ADD980 /* CancelHighlight.swift */; };
 		9C905D1F25C624A200D3040E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C905D1E25C624A200D3040E /* SearchBarView.swift */; };
 		9C905D2225C6296D00D3040E /* SearchBarView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C905D2125C6296D00D3040E /* SearchBarView2.swift */; };
 		9C93FFE025CC9C1800A6801A /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C93FFDF25CC9C1800A6801A /* GradientBackground.swift */; };
@@ -53,6 +50,7 @@
 		9C01CCDD25FA86A700E1FE7F /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		9C044B3C25D5E783000793EC /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		9C14FFDA26052CEE007004FD /* APCreateTaskVideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = APCreateTaskVideo.mov; sourceTree = "<group>"; };
+		9C14FFDF26069611007004FD /* Comic Sans MS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comic Sans MS.ttf"; sourceTree = "<group>"; };
 		9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuideDetailView.swift; sourceTree = "<group>"; };
 		9C1DC75B25ACDF94007D359A /* LifeGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuide.swift; sourceTree = "<group>"; };
 		9C1DC75F25ACE068007D359A /* LifeGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuides.swift; sourceTree = "<group>"; };
@@ -71,15 +69,11 @@
 		9C3C0A1725F313DB00ED8A6F /* Offence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offence.swift; sourceTree = "<group>"; };
 		9C3C0A1A25F328D900ED8A6F /* Offences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offences.swift; sourceTree = "<group>"; };
 		9C3C0A1D25F4650300ED8A6F /* AssessmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentViewModel.swift; sourceTree = "<group>"; };
-		9C3C0A2225F4938200ED8A6F /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
-		9C3C0A2525F4B9B200ED8A6F /* ReferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceView.swift; sourceTree = "<group>"; };
-		9C3C0A2925F5879300ED8A6F /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		9C4D7D5025DCAB28001A2E83 /* VideoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoList.swift; sourceTree = "<group>"; };
 		9C526E5F25C7BDDA006CB517 /* FAQsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsDetailView.swift; sourceTree = "<group>"; };
 		9C5DCCB525CDF7BF00593E05 /* NavigationBarColorChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColorChange.swift; sourceTree = "<group>"; };
 		9C70C98925C8A5B100345ECD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9C70C98E25C8E66300345ECD /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
-		9C8BE7B825E19D3100ADD980 /* CancelHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelHighlight.swift; sourceTree = "<group>"; };
 		9C905D1E25C624A200D3040E /* SearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		9C905D2125C6296D00D3040E /* SearchBarView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView2.swift; sourceTree = "<group>"; };
 		9C93FFDF25CC9C1800A6801A /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
@@ -136,6 +130,7 @@
 				9C39ED2F25A8EA0700DB7C73 /* Preview Content */,
 				9C39ED3225A8EA0700DB7C73 /* Info.plist */,
 				9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */,
+				9C14FFDF26069611007004FD /* Comic Sans MS.ttf */,
 				9C14FFDA26052CEE007004FD /* APCreateTaskVideo.mov */,
 			);
 			path = SchoolLifeGuideNew;
@@ -199,7 +194,6 @@
 				9CA7117825C7BC300041436C /* content */,
 				9CA7116A25C788350041436C /* Launch Screen.storyboard */,
 				9C93FFDF25CC9C1800A6801A /* GradientBackground.swift */,
-				9C8BE7B825E19D3100ADD980 /* CancelHighlight.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -223,9 +217,6 @@
 				9CA7116E25C7B1680041436C /* FAQsView.swift */,
 				9C526E5F25C7BDDA006CB517 /* FAQsDetailView.swift */,
 				9C3C0A0825F2BB0200ED8A6F /* AssessmentView.swift */,
-				9C3C0A2925F5879300ED8A6F /* HistoryView.swift */,
-				9C3C0A2525F4B9B200ED8A6F /* ReferenceView.swift */,
-				9C3C0A2225F4938200ED8A6F /* CreditView.swift */,
 			);
 			path = FAQs;
 			sourceTree = "<group>";
@@ -288,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C14FFDB26052CEE007004FD /* APCreateTaskVideo.mov in Resources */,
+				9C14FFE026069611007004FD /* Comic Sans MS.ttf in Resources */,
 				9CA7116B25C788350041436C /* Launch Screen.storyboard in Resources */,
 				9C39ED3125A8EA0700DB7C73 /* Preview Assets.xcassets in Resources */,
 				9C39ED2E25A8EA0700DB7C73 /* Assets.xcassets in Resources */,
@@ -318,16 +310,12 @@
 				9C1DC75C25ACDF94007D359A /* LifeGuide.swift in Sources */,
 				9CA7116F25C7B1680041436C /* FAQsView.swift in Sources */,
 				9C3C0A1325F2BFC400ED8A6F /* timesOfViolation.swift in Sources */,
-				9C3C0A2A25F5879300ED8A6F /* HistoryView.swift in Sources */,
 				9CA7117325C7B9B50041436C /* Issue.swift in Sources */,
 				9C3C0A0C25F2BD5500ED8A6F /* Severity.swift in Sources */,
-				9C3C0A2325F4938200ED8A6F /* CreditView.swift in Sources */,
 				9C044B3D25D5E783000793EC /* VideoView.swift in Sources */,
-				9C8BE7B925E19D3100ADD980 /* CancelHighlight.swift in Sources */,
 				9CBB67F625DF690F007F4504 /* Videos.swift in Sources */,
 				9C5DCCB625CDF7BF00593E05 /* NavigationBarColorChange.swift in Sources */,
 				9CF65F6025DB4C9E0049D188 /* SearchBarDetailView.swift in Sources */,
-				9C3C0A2625F4B9B200ED8A6F /* ReferenceView.swift in Sources */,
 				9C28FAA225CB87CE007E82F4 /* MessageFunction.swift in Sources */,
 				9C70C98A25C8A5B100345ECD /* HomeView.swift in Sources */,
 				9C93FFE025CC9C1800A6801A /* GradientBackground.swift in Sources */,
