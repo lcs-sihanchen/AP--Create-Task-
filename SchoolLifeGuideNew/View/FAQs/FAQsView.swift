@@ -36,10 +36,6 @@ struct FAQsView: View {
                             
                         }
                         
-                       
-                       
-    //                    Image(systemName: question.systemImageName)
-    //                    Text(question.question)
                         
                     }
                 
@@ -58,33 +54,13 @@ struct FAQsView: View {
                         print("pressed")
                         showingAssessmentView = true
                     }
-                
-                
-                
-                
-                
-                
-//                Button(action: {
-//                    print("pressed")
-//                    showingAssessmentView = true
-//                }, label: {
-//                    Text("My Status")
-//                        .foregroundColor(.white)
-//                        .font(Font.system(size: 30))
-//                }).foregroundColor(.white)
-//
-                
-                
-//                Button("My Status") {
-//                    print("pressed")
-//                }.font(Font.system(size: 40))
-//                .foregroundColor(.white)
             }
         }.sheet(isPresented: $showingAssessmentView) {
             AssessmentView(showing: $showingAssessmentView, store: store)
+            // Save in JSON when user quits the app
         }.onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
             
-            // Save the list of tasks
+            // Save the list of offences
             let encoder = JSONEncoder()
             if let encoded = try? encoder.encode(store.offences) {
                 print("Saving tasks list now, app has been backgrounded or quit...")

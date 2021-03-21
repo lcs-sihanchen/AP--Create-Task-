@@ -13,24 +13,7 @@ struct AssessmentView: View {
     
     
     @ObservedObject var viewModel = AssessmentViewModel()
-    
-    
-    
-    
-    //    @State private var description = ""
-    //    @State private var violationTimes = TimesOfViolation.First
-    //    @State private var severity = Severity.Low
-    
-    //
-    //
-    //    @State private var complianceLevel: Double = 0
-    //    @State private var myColor = Color(red: 255, green: 0, blue: 0)
-    //
-    //    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-    
-    
     @Binding var showing: Bool
-   
     @State private var showAlert = false
     @ObservedObject var store: Offences
     
@@ -55,11 +38,9 @@ struct AssessmentView: View {
                         
                         Section {
                             
+                            Text("Forthrightness")
                             
                             Slider(value: $viewModel.complianceLevel, in: 0...100, step: 1).accentColor(viewModel.getColor())
-                            
-                            Text("Current Value is \(Int(viewModel.complianceLevel))")
-                            
                             
                             
                         }
@@ -110,31 +91,23 @@ struct AssessmentView: View {
         }
         
     }
-        func saveTask() {
-            
-            // Add the task to the list of tasks
-            store.offences.append(Offence(areaOfViolation: viewModel.description, timesOfViolation: viewModel.violationTimes, levelOfCompliance: viewModel.complianceLevel))
-            
-            // Dismiss this view
-            showing = false
-            
-        }
+    
+    func saveTask() {
         
-        struct ColorStyle: ButtonStyle {
-            func makeBody(configuration: Self.Configuration) -> some View {
-                configuration.label
-                    .padding(12)
-                    .foregroundColor(.white)
-                    .cornerRadius(8)
-            }
-        }
+        // Add the task to the list of tasks
+        store.offences.append(Offence(areaOfViolation: viewModel.description, timesOfViolation: viewModel.violationTimes, levelOfCompliance: viewModel.complianceLevel))
         
-        struct AssessmentView_Previews: PreviewProvider {
-            static var previews: some View {
-                AssessmentView(showing: .constant(true), store: testStore)
-            }
+        // Dismiss this view
+        showing = false
+        
+    }
+    
+    struct AssessmentView_Previews: PreviewProvider {
+        static var previews: some View {
+            AssessmentView(showing: .constant(true), store: testStore)
         }
     }
+}
 
 
 var accountabilityText = ""

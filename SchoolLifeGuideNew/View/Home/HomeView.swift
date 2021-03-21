@@ -17,8 +17,6 @@ struct HomeView: View {
               }
    
     var body: some View {
-//
-//        let text = "You will soon realize that being a member of Lakefield College School is to be a part of a close and caring family. Make the most of your time at the school. Before you know it, you will be graduating and bidding farewell to your Grove."
         
         ScrollView{
             VStack {

@@ -11,9 +11,6 @@ struct MessageFunction: View {
     var firstLineTitle: String
     var secondLineTitle: String?
     var description: String
-//    Maybe
-//    var fontName: String
-    
     var titleFontSize: CGFloat
     var textFontSize: CGFloat
     var firstTitleTopPadding: CGFloat
