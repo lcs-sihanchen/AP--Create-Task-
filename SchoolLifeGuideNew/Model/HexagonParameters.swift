@@ -4,6 +4,8 @@
 //
 //  Created by Chen, Sihan on 2021-02-03.
 //
+// Begin Cited Code
+// https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes
 import CoreGraphics
 
 struct HexagonParameters {
@@ -45,3 +47,4 @@ struct HexagonParameters {
             ]
     }
 }
+// End Cited Code

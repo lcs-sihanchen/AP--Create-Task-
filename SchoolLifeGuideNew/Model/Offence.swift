@@ -18,6 +18,7 @@ class Offence: Identifiable, Codable, Hashable {
         hasher.combine(areaOfViolation)
         hasher.combine(timesOfViolation)
         hasher.combine(levelOfCompliance)
+        hasher.combine(offenceType)
     }
     
     // Identify what properties should be read to and written from JSON
@@ -25,19 +26,22 @@ class Offence: Identifiable, Codable, Hashable {
         case areaOfViolation
         case timesOfViolation
         case levelOfCompliance
+        case offenceType
     }
     
     var id = UUID()
     var areaOfViolation: String
+    var offenceType: OffenceType
     var timesOfViolation: TimesOfViolation
     var levelOfCompliance: Double
     
     
-    internal init(id: UUID = UUID(), areaOfViolation: String, timesOfViolation: TimesOfViolation, levelOfCompliance: Double) {
+    internal init(id: UUID = UUID(), areaOfViolation: String, offenceType: OffenceType, timesOfViolation: TimesOfViolation, levelOfCompliance: Double) {
         self.id = id
         self.areaOfViolation = areaOfViolation
         self.timesOfViolation = timesOfViolation
         self.levelOfCompliance = levelOfCompliance
+        self.offenceType = offenceType
     }
     
     required init(from decoder: Decoder) throws {
@@ -49,6 +53,8 @@ class Offence: Identifiable, Codable, Hashable {
         self.timesOfViolation = try container.decode(TimesOfViolation.self, forKey: .timesOfViolation)
         // Decode "levelOfCompliance" property into an instance of the Double type
         self.levelOfCompliance = try container.decode(Double.self, forKey: .levelOfCompliance)
+        // Decode "offenceType" property into an instance of OffenceType type
+        self.offenceType = try container.decode(OffenceType.self, forKey: .offenceType)
     }
     
     func encode(to encoder: Encoder) throws {
@@ -59,14 +65,12 @@ class Offence: Identifiable, Codable, Hashable {
         try container.encode(areaOfViolation, forKey: .areaOfViolation)
         try container.encode(timesOfViolation.rawValue, forKey: .timesOfViolation)
         try container.encode(levelOfCompliance, forKey: .levelOfCompliance)
+        try container.encode(offenceType.rawValue, forKey: .offenceType)
         
     }
     
 }
 
-let testOffence = [
-    Offence(areaOfViolation: "testtest", timesOfViolation: TimesOfViolation.First, levelOfCompliance: 90),
-    Offence(areaOfViolation: "testtest", timesOfViolation: TimesOfViolation.First, levelOfCompliance: 90),
-    Offence(areaOfViolation: "testtest", timesOfViolation: TimesOfViolation.First, levelOfCompliance: 90)
+let testOffence: [Offence] = []
 
-]
+

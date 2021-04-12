@@ -99,7 +99,7 @@ func filter(searchText: String, list lifeGuides: [LifeGuide]) -> [LifeGuide] {
     }
     
     for lifeGuide in lifeGuides {
-        if lifeGuide.name.contains(searchText) || lifeGuide.description.contains(searchText) {
+        if lifeGuide.name.lowercased().contains(searchText.lowercased()) || lifeGuide.description.lowercased().contains(searchText.lowercased()) {
             lifeGuidesToPresent.append(lifeGuide)
         }
     }

@@ -4,7 +4,8 @@
 //
 //  Created by Chen, Sihan on 2021-02-03.
 //
-
+// Begin cited Code
+// https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes
 import SwiftUI
 
 struct BadgeBackground: View {
@@ -62,10 +63,12 @@ struct BadgeBackground: View {
     static let gradientStart = Color(red: 228 / 255, green: 129 / 255, blue: 129 / 255)
     static let gradientEnd = Color(red: 230 / 255, green: 163 / 255, blue: 163 / 255)
 }
-
+// End Cited Code
 
 struct BadgeBackground_Previews: PreviewProvider {
     static var previews: some View {
         BadgeBackground()
     }
 }
+
+
